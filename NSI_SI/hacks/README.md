@@ -82,7 +82,7 @@ Logic:
 
 
 
-### 7. **Deep Learning Classification with U-Net**
+### 8. **Deep Learning Classification with U-Net**
 - A **U-Net mini model** is proposed for land cover classification.
 - The training code is available in the **`unet_mini`** folder.
 - The architecture was inspired by a **TensorFlow U-Net repository on GitHub** (unfortunately, the original repo is not available at the moment, but will be updated as soon as possible).
@@ -91,7 +91,7 @@ Logic:
 - The prediction is done so, that it finishes in a GRASS GIS database
 - No extra documentation in the unet_folder, life is short and this week is even shorter :)
 
-### 8. **Post-Processing in GRASS GIS: Change Detection and Area Calculation**
+### 9. **Post-Processing in GRASS GIS: Change Detection and Area Calculation**
 - The classification results are meant to be imported into a local **GRASS GIS** database to analyze changes in impervious land cover over time and create a table that the dashboard will fetch.
 - Using **`r.mapcalc`**, changes are detected by identifying pixels that became impervious or green space in a new year but were not in the previous year. This is the logic and there is no bash code in this version.
   ```
