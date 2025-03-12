@@ -9,7 +9,8 @@ As it was done on a local environment, exact requirements are not available at t
 ## You can test this dashboard even without having data (and revamp it as much as you want to make cool things from it)
 This is how it looks without data:
 
---photo--
+![Screenshot from 2025-03-12 12-50-18](https://github.com/user-attachments/assets/90e5034d-21d6-4ba3-afea-2850de9f6c21)
+
 
 ### Database Connection
 To retrieve real data, you need to connect the dashboard to an SQLite database. The database should contain a table named `regional_data` with the following structure (with examples):
@@ -24,8 +25,7 @@ Make sure that your SQLite database (`data.db`) contains this table with correct
 The SQLite database is used for prototyping. A real, complex one should be implemented using at least PostgreSQL or, even better, DuckDB.
 
 This is how it looks with data:
-
---photo--
+![Screenshot from 2025-03-12 12-53-57](https://github.com/user-attachments/assets/722a84a0-1a46-4db5-8fad-16c80da08258)
 
 ### To-Do
 This prototype was made in a few days, and there is more to do. The major to-do is the correction of the data export process, depending on the API used for retrieval.
