@@ -1,0 +1,16 @@
+
+.Select-menu-outer {
+    background-color: white !important;  
+    color: black !important;
+}
+
+
+.Select-option {
+    background-color: white !important; 
+    color: black !important; 
+}
+
+.Select-option:hover {
+    background-color: gray !important; 
+    color: white !important;  
+}
