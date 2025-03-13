@@ -1,1 +1,3 @@
-This is the initial README file for each team...
+# MEA CULPA - Monitoring Ecosystem Accounts: Counting Usable Life Progress Analysis
+
+Hacks and dashboard
