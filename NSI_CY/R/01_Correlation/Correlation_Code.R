@@ -4,10 +4,10 @@ library(data.table)
 library(sf)
 
 
-general_path <- "~/Desktop/Data_Downloaded/Finalised/TAROT/R/00_General/"
+general_path <- "~/R/00_General/"
 rdata_map <- paste0(general_path,"rdata/mappings/")
 CopRean_Y <- paste0(general_path,"rdata/cams_Y13to22/")
-dir.create(corr_path <- "~/Desktop/Data_Downloaded/Finalised/TAROT/R/01_Correlation/CorrReslts/", showWarnings = FALSE, recursive = TRUE)
+dir.create(corr_path <- "~/R/01_Correlation/CorrReslts/", showWarnings = FALSE, recursive = TRUE)
 source(paste0(general_path,"FunctionsUsed.R"))
 
 

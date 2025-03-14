@@ -6,7 +6,7 @@ library(leaflet)
 library(shiny)
 library(shinydashboard)
 
-setwd("~/Desktop/Data_Downloaded/Finalised/TAROT/R/02_AppTAROT/")
+setwd("~/R/02_AppTAROT/")
 ccodes <- readRDS("data_supp/NUTS0_geonames_map.rds")
 myears <- readRDS("data_supp/PeriodsInFilter.rds")
 corr_eqn <- readRDS("data_supp/CorrExpEqnCoeffs_PMg5.rds")

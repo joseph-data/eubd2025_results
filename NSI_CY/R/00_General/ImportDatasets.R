@@ -5,10 +5,10 @@ library(data.table)
 library(sf)
 # library(eurostat)
 
-general_path <- "~/Desktop/Data_Downloaded/Finalised/TAROT/R/00_General/"
-reanal_yearly_path <- "~/Desktop/Correlation_tests/summary_stats/"  #  CAMS Reanalysis Data downloaded and brought to YEARLY, NUTS3 level in Python (showing number of dangerous days due to PM2.5)
-reanal_mnthly_path <- "~/Desktop/Live_data_older/summary_stats/"    #  CAMS Reanalysis Data downloaded and brought to MONHTLY, NUTS3 level in Python (showing number of dangerous days due to PM2.5)
-forcst_mnthly_path <- "~/Desktop/Live_data/summary_stats/"          #  CAMS Forecast Data downloaded and brought to MONTHLY, NUTS3 level in Python (showing number of dangerous days due to PM2.5)
+general_path <- "~/R/00_General/"
+reanal_yearly_path <- "~/R/Hacks/Correlation_tests/summary_stats/"  #  CAMS Reanalysis Data downloaded and brought to YEARLY, NUTS3 level in Python (showing number of dangerous days due to PM2.5)
+reanal_mnthly_path <- "~/R/Hacks/Live_data_older/summary_stats/"    #  CAMS Reanalysis Data downloaded and brought to MONHTLY, NUTS3 level in Python (showing number of dangerous days due to PM2.5)
+forcst_mnthly_path <- "~/R/Hacks/Live_data/summary_stats/"          #  CAMS Forecast Data downloaded and brought to MONTHLY, NUTS3 level in Python (showing number of dangerous days due to PM2.5)
 dir.create(rdata_map <- paste0(general_path,"rdata/mappings/"), showWarnings = FALSE, recursive = TRUE)
 dir.create(CopRean_Y <- paste0(general_path,"rdata/cams_Y13to22/"), showWarnings = FALSE)
 dir.create(CopLive_M <- paste0(general_path,"rdata/cams_M13to24/"), showWarnings = FALSE)

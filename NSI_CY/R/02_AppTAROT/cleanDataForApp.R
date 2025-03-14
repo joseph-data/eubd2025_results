@@ -4,12 +4,12 @@ library(data.table)
 library(sf)
 
 
-general_path <- "~/Desktop/Data_Downloaded/Finalised/TAROT/R/00_General/"
-corr_path <- "~/Desktop/Data_Downloaded/Finalised/TAROT/R/01_Correlation/CorrReslts/"
+general_path <- "~/R/00_General/"
+corr_path <- "~/R/01_Correlation/CorrReslts/"
 rdata_map <- paste0(general_path,"rdata/mappings/")
 CopLive_M <- paste0(general_path,"rdata/cams_M13to24/")
-dir.create(appd_path <- "~/Desktop/Data_Downloaded/Finalised/TAROT/R/02_AppTAROT/data/", showWarnings = FALSE, recursive = TRUE)
-dir.create(appdsupp_path <- "~/Desktop/Data_Downloaded/Finalised/TAROT/R/02_AppTAROT/data_supp/", showWarnings = FALSE, recursive = TRUE)
+dir.create(appd_path <- "~/R/02_AppTAROT/data/", showWarnings = FALSE, recursive = TRUE)
+dir.create(appdsupp_path <- "~/R/02_AppTAROT/data_supp/", showWarnings = FALSE, recursive = TRUE)
 source(paste0(general_path,"FunctionsUsed.R"))
 
 
