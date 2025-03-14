@@ -12,3 +12,5 @@
 * **STEP 3:** In case you want to see the Correlation calculation, navigate to folder "R/01_Correlation/" and run code Correlation_Code.R. This produces the Correlation plot but most importantly also produces the Correlation Equation coefficients (that are used to estimate the Rate of Premature Deaths from the Number of Dangerous Days as identified from the CAMS data)
 
 * **STEP 4:** In order to recreate the TAROT dashboard, first run the cleanDataForApp.R code. Then you are ready to run the app.R code, which creates the TAROT dashboard.
+
+Until the CREODIAS VM is taken offline, the TAROT Dashboard can be found at: http://64.225.141.186:3838/tarot/
