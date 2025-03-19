@@ -35,10 +35,9 @@ The website is available at: [**Team 05 WebApp**](https://joseph-data.github.io/
 
 ## Dependencies  
 Ensure you have the following installed:  
-- **R** (latest version)  
-- **RStudio** (for ease of use)  
-- **Quarto** (for rendering)  
-- Required R packages (install them with `install.packages("package-name")`)  
+- **R** 
+- **RStudio**  
+- **Quarto**  
 
 ## Contributors  
 💡 Team 5 - **Eurostat Big Data Hackathon 2025**  
