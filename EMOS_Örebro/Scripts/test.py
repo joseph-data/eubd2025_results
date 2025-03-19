@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-image = cv2.imread(r"C:\Users\oluoc\Desktop\HackathonNew\Team05\photo\Portugal\NDVI_before_Portugal.jpg")
+image = cv2.imread(r"../photo/Portugal/NDVI_before_Portugal.jpg")
 
 if image is None:
     print("Error: Image not found or path is incorrect.")

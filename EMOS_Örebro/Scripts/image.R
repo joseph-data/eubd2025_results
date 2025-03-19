@@ -12,7 +12,7 @@ import geopandas as gpd
 import folium
 
 # Read and prepare shapefile data
-local_shapefile_path = r"C:\Users\oluoc\Desktop\HackathonNew\Team05\data\nuts\NUTS_RG_20M_2024_3035.shp"
+local_shapefile_path = r"../data/nuts/NUTS_RG_20M_2024_3035.shp"
 gdf = gpd.read_file(local_shapefile_path).to_crs(epsg=4326)  # Convert to WGS84
 
 # Create base map centered on your custom polygon area
@@ -77,7 +77,7 @@ m # Display in Jupyter Notebook
 library(imager)
 
 # Load the image
-image_path <- "C:/Users/oluoc/Desktop/HackathonNew/Team05/photo/Portugal/NDVI_before_Portugal.jpg"
+image_path <- "../photo/Portugal/NDVI_before_Portugal.jpg"
 img <- load.image(image_path)
 
 # Display the image

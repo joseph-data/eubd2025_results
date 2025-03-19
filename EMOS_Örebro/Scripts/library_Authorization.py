@@ -22,8 +22,8 @@ import plotly.express as px
 # def get_access_token():
 #     """Retrieve access token from Copernicus Data Space Ecosystem."""
 #     token_url = "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/protocol/openid-connect/token"
-#     client_id = 'sh-c4e8b7e5-a590-4479-baf4-435a23e4ddfd'
-#     client_secret = '7gRYSdD5UubsQtoFnf89W8WjfYNJvCOX'
+#     client_id = 'removed-token'
+#     client_secret = 'removed-secret'
 #     
 #     response = requests.post(
 #         token_url,
